@@ -47,6 +47,7 @@ main{
     border-bottom: solid rgb(91, 218, 235);
     /* height: auto; */
     
+    
 }
 
 .work-card h1{
@@ -76,6 +77,7 @@ main{
 
 .list-container p{
 text-decoration: underline;
+
 }
 
 
@@ -220,6 +222,15 @@ text-decoration: underline;
   @media only screen and (max-width: 390px){
     main{
       height: 550vh;}
+
+      .Offered-service-container{
+        margin-right: 20px;
+      }
+
+
+      .work-card-2{
+        width: 100%;
+      }
   }
 
 

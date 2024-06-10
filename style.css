@@ -249,6 +249,7 @@ footer{
         justify-content: center;
         width: 100%;
         margin-top: 80px;
+        margin-bottom: 10px;
         
     }
 
@@ -283,6 +284,7 @@ footer{
     .name{
         text-align: center;
         margin-top: -35px;
+        margin-bottom: 10px;
     }
 }
 
@@ -299,6 +301,8 @@ footer{
     header{
         width: 103%;
     }
+
+    
 }
 
 

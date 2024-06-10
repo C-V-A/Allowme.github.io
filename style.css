@@ -131,6 +131,7 @@ nav .sidebar li a{
     border-left: solid 5px black;
     padding: 30px;
     padding-top: 0;
+    text-align: justify;
    
 }
 
@@ -264,21 +265,30 @@ footer{
     .introduction{
         border: none;
         margin-top: 100px;
+        
        
     }
 
     .introduction p{
+    
         margin: 0 10px;
+        
         
     }
 
     .introduction .bio{
-        height: 220vh;;
+        height: 220vh;
+        
+    }
+
+    .introduction h1{
+        margin-top: -100px;
+        margin-bottom: 10px;
     }
 
     .introduction h2{
-        margin-top: -100px;
-        margin-bottom: 10px;
+        text-align: center;
+        font-size: 29px;
     }
 
     .name{

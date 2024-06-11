@@ -1,8 +1,9 @@
 Body{
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 100%;
     font-family: Alice;
+    
 }
 
 header{
@@ -107,7 +108,10 @@ nav .sidebar li a{
     justify-content: space-evenly;
     align-items: center;
     margin-top: -50px;
-    height: 150vh;
+    min-height: 150vh;
+    /* height: 100%; */
+    /* margin-bottom: 50px; */
+    
     
     
 }
@@ -127,11 +131,15 @@ nav .sidebar li a{
 
 .introduction{
     max-width: 650px;
-    height: 100vh;
+    min-height: 100vh;
+    /* height: 100%; */
     border-left: solid 5px black;
     padding: 30px;
     padding-top: 0;
-    /* text-align:center; */
+    /* margin-bottom: auto; */
+    margin-top: 90px;
+    /* margin-bottom: 90px; */
+    padding-bottom: 50px;
     
    
 }
@@ -156,17 +164,15 @@ nav .sidebar li a{
     font-size: 25px;
 }
 
-footer{
+footer{    
     background-color: rgb(91, 218, 235);
     width: 100%;
-    margin-top: 50px;    
-    height: 110px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 0;
+    margin-top: auto;
 }
 
 .right{
@@ -198,7 +204,7 @@ footer{
 
 @media only screen and (max-width: 360px) {
     .introduction{
-        height:  300vh;
+        /* height:  300vh; */
     }
     
 }
@@ -206,7 +212,11 @@ footer{
 
 @media only screen and (max-width: 390px) {
     .introduction{
-        height:  300vh;
+        /* height:  100vh; */
+    }
+
+    footer{
+        /* margin-bottom: 100vh; */
     }
     
 }
@@ -248,7 +258,7 @@ footer{
         display: flex;
         justify-content: center;
         /* margin-top: -50px; */
-        height: 150vh;
+        /* height: 150vh; */
         
     }
 
@@ -273,6 +283,7 @@ footer{
         border: none;
         margin-top: 100px;
         
+        
        
     }
 
@@ -284,7 +295,7 @@ footer{
     }
 
     .introduction .bio{
-        height: 220vh;
+        /* height: 220vh; */
         
     }
 
@@ -330,7 +341,7 @@ footer{
     } */
 
     .introduction .bio{
-        margin-bottom: 150px;
+        /* margin-bottom: 100px; */
     }
 
     

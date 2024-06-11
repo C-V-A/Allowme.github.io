@@ -229,12 +229,17 @@ text-decoration: underline;
   }
 
 
-  /* @media only screen and (max-width: 375px){
+  @media only screen and (max-width: 375px){
     main{
-      min-height: 850vh;
-          
+      height: 850vh;
+
+            
     }
-  } */
+
+    .Package-info2{
+      margin-bottom: 150px;
+    }
+  }
 
 
   

@@ -237,7 +237,7 @@ text-decoration: underline;
     }
 
     .Package-info2{
-      margin-bottom: 150px;
+      margin-bottom: 250px;
     }
   }
 
@@ -266,6 +266,10 @@ text-decoration: underline;
 
       .work-card-2{
         width: 100%;
+      }
+
+      .Package-info2{
+        margin-bottom: 100px;
       }
   }
 

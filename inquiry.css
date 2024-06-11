@@ -134,12 +134,26 @@ textarea{
 }
 
 
+
+@media screen and (max-width: 375px){
+  .auth-modal{
+    margin-top: 10px;
+  }
+
+ 
+ }
+
+
 @media screen and (max-width: 390px){
   
 
  h1{
   width:  100%;
  }
+
+ .auth-modal{
+  margin-top: 0px;
+}
 
 }
 

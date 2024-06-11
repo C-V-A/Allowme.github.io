@@ -195,6 +195,16 @@ footer{
 
 
 
+@media only screen and (min-width: 360px) {
+    .introduction{
+        height:  300vh;
+    }
+    
+}
+
+
+
+
 
 
 
@@ -235,13 +245,15 @@ footer{
         justify-content: flex-end;
     } 
 
+    
+
     .main-section{
         width: 100%;
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
         /* margin-top: -50px; */
-        height: 100vh;
+        height: 150vh;
         
     }
 
@@ -310,6 +322,10 @@ footer{
 @media only screen and (min-width: 375px) {
     header{
         width: 103%;
+    }
+
+    .introduction{
+        height:  300vh;
     }
 
     

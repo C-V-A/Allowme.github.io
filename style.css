@@ -132,6 +132,7 @@ nav .sidebar li a{
     padding: 30px;
     padding-top: 0;
     text-align: justify;
+    /* margin-top: 1250px; */
    
 }
 
@@ -195,26 +196,12 @@ footer{
 
 
 
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 360px) {
     .introduction{
         height:  300vh;
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -319,13 +306,13 @@ footer{
 }
 
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
     header{
         width: 103%;
     }
 
     .introduction{
-        height:  300vh;
+        height:  100vh;
     }
 
     
